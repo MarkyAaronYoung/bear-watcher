@@ -1,3 +1,5 @@
+import river from '../../components/river.js';
+
 const bears = [];
 
 const addBear = (e) => {
@@ -9,6 +11,7 @@ const addBear = (e) => {
       imageUrl: $('#bear-img').val(),
   }
   bears.push(newBear);
+  river.createBearCard();
 };
 
 const getBears = () => {
