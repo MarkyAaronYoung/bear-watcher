@@ -3,8 +3,10 @@ const bears = [];
 const addBear = (e) => {
   e.preventDefault();
   let newBear = {
-      name: document.querySelector('#').value,
-      imageUrl: document.querySelector('#').value,
+      // name: document.querySelector('#').value,
+      // imageUrl: document.querySelector('#').value,
+      name: $('#nameInput').val(),
+      imageUrl: $('#bear-img').val(),
   }
   bears.push(newBear);
 };
