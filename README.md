@@ -8,3 +8,7 @@ When the user first visits the page they should see a form asking them to enter 
 # Dev Notes
 * use bootstrap 4 styling
 * use JS Modules to break up the javascript
+
+# Screenshots
+![BearForm](javascripts/assets /screenshots/BearForm.png)
+![BearForm](javascripts/assets /screenshots/BearForm2.png)
