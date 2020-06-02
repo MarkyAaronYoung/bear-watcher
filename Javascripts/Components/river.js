@@ -1,8 +1,11 @@
 import utils from '../helpers/Utils.js';
 import bearData from '../helpers/data/bearData.js';
 
+// function that creates a bear card
 const createBearCard = (object) => {
+  // create an object that accepts a new bear 
   object = bearData.getBears();
+  console.log(object);
   let domString = '';
   for (let i = 0; i < object.length; i++) {
     domString += `
@@ -13,9 +16,10 @@ const createBearCard = (object) => {
       </div>
     </div>`
   }
+  // function to print bearCards to DOM
   utils.printToDom('#bearCards', domString);
-  $('#nameInput').val('');
-  $('#bear-img').val('');
+  $('#bear-name').val();
+  $('#bear-img').val();
 }
 
 export default { createBearCard };
